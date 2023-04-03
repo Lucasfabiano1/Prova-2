@@ -32,9 +32,11 @@ public class Exercício {
         if (operacao == 3) {
             System.out.println("O valor da conta é " + (nu1 * nu2));
         }
-        if (operacao == 4) {
+        if (operacao == 4) { // && nu2!=0
             System.out.println("O valor da conta é " + (nu1 / nu2));
-        }
+        } // else {
+          // sys.out.println("VALOR IMPOSSIVEL")
+          // }
     }
 
     // A Escola Corleone do Brooklyn está promovendo uma gincana entre seus alunos,
@@ -95,5 +97,5 @@ public class Exercício {
         }else{
             System.out.println("O preço total foi de "+ precoTotal);
         }
-     
+    }
 }
